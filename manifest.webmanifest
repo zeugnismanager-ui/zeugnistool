@@ -1,0 +1,15 @@
+{
+  "name": "Zeugnis",
+  "short_name": "Zeugnis",
+  "lang": "de",
+  "id": "./",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#4f46e5",
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icon-512.png", "type": "image/png", "sizes": "512x512" },
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192" }
+  ]
+}
