@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "Am5SBeI8",
+  "version": "RorWi/wX",
   "assets": [
     {
       "hash": "sha256-9kmWAqFrsbu8vzKCx/q1/Y0LnrN842eqMPkmTh5Irf0=",
@@ -202,23 +202,23 @@ self.assetsManifest = {
       "url": "_framework/System.l1ekyr7hdn.wasm"
     },
     {
-      "hash": "sha256-G+Js+m0MuzFT8EUGmR3SDxogQM18xiTQt5l5OMW8qvA=",
-      "url": "_framework/Zeugnis.App.jaacvhw3og.wasm"
+      "hash": "sha256-r44aAYupYWa1Q/dKTvIRmBjzEKzN6X6wyGdtDxbp4D8=",
+      "url": "_framework/Zeugnis.App.1kgum3gwnf.wasm"
     },
     {
-      "hash": "sha256-aIj6yQMg3p9valZG80c7fFnNWXh+hTrt5QDaKMEvDd0=",
-      "url": "_framework/Zeugnis.Domain.okkp8vz1k0.wasm"
+      "hash": "sha256-L6H8YrBcXloS15Aty4YgK/hhrQzGGQDxwRMiq2LQHsg=",
+      "url": "_framework/Zeugnis.Domain.zb4hx4y4r1.wasm"
     },
     {
-      "hash": "sha256-DIV1nXMljJq0Yv6mQsPIprFo34YqucDi7ymBzitTvBE=",
-      "url": "_framework/Zeugnis.Exchange.c61sajt9jp.wasm"
+      "hash": "sha256-0Q1pbVxMcg5clNs9+vFG2cuny27OJ3tipbqzdCyXD40=",
+      "url": "_framework/Zeugnis.Exchange.txljcnhrik.wasm"
     },
     {
-      "hash": "sha256-8MabW9AB+C7q+pXRZXph74ySQ4+/GJu8nD+MSpAqEXo=",
-      "url": "_framework/Zeugnis.Export.wwn82n9qwv.wasm"
+      "hash": "sha256-FoodrzQ5e9Bbkl5RUoHXKU/PB6NN1Ylq+NDUGHWRkVE=",
+      "url": "_framework/Zeugnis.Export.af3r4fykrb.wasm"
     },
     {
-      "hash": "sha256-strXYdzK807Aatp3Id9CpdspXWYQw2Y/1nzN0kQh8JM=",
+      "hash": "sha256-JpSsVDL4EyaeELd8efEK2wctv8f9YJrAXcaaw/U4bMs=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -254,7 +254,7 @@ self.assetsManifest = {
       "url": "_framework/icudt_no_CJK.lfu7j35m59.dat"
     },
     {
-      "hash": "sha256-fkw8sIX8uJivkVtZaZb/fb+sgldzzqEtuyXUwFMhI+w=",
+      "hash": "sha256-K+m+bOJdfzTgxmK5+CpmsM5aUa4kej2WyMnspgZLNrU=",
       "url": "css/app.css"
     },
     {
@@ -266,7 +266,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-3bZnUsLdI5IkXjiDYoY+/2kAjgMd2Y5Euh9q1gVvcm4=",
+      "hash": "sha256-CjiKqltQcbhqeBLI4EQyrtblyV+QEivIUKWlx3UDVRM=",
       "url": "index.html"
     },
     {
@@ -274,7 +274,7 @@ self.assetsManifest = {
       "url": "js/zeugnis.js"
     },
     {
-      "hash": "sha256-IGTMTc5qS0flMeP2Z1sztOTmL8touvH12EpCcr5tTRw=",
+      "hash": "sha256-EGI61gkR2mqjo3j+N81GaG5gnPnp0vIse4g/t/PjHW4=",
       "url": "manifest.webmanifest"
     }
   ]

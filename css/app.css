@@ -601,3 +601,29 @@ table.conflicts td { vertical-align: top; }
 /* Lehrkraft-Modus: ohne Seitenleiste (nur ein Bereich), Inhalt zentriert */
 .only-lehrkraft .sidebar { display: none; }
 .only-lehrkraft .content { max-width: 960px; }
+
+/* ===== Design v0.31.0 – Marke, Kenarçubuğu, Rozetler (nur Optik) ===== */
+.brand { font-weight: 800; letter-spacing: .01em; }
+.brand-mark svg { display: block; }
+.sidebar { position: relative; overflow: hidden; }
+.sidebar > *:not(.sidebar-deco) { position: relative; z-index: 1; }
+.sidebar-deco { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
+.sidebar-deco svg { width: 100%; height: 100%; }
+
+.greet-pill {
+    display: inline-flex; align-items: center; gap: .5rem;
+    margin: .25rem 0 .75rem; padding: .45rem 1rem; border-radius: 999px;
+    background: #fff; box-shadow: 0 6px 18px rgba(76,29,149,.10); font-weight: 600; color: var(--text);
+}
+.greet-dot { width: .7rem; height: .7rem; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #fde68a, #f59e0b); }
+
+.steps { list-style: none; padding-left: 0; counter-reset: step; }
+.steps > li { counter-increment: step; position: relative; padding-left: 2.3rem; margin-bottom: .6rem; }
+.steps > li::before {
+    content: counter(step);
+    position: absolute; left: 0; top: .05rem;
+    width: 1.6rem; height: 1.6rem; border-radius: 50%;
+    background: var(--brand-grad); color: #fff;
+    display: grid; place-items: center; font-weight: 700; font-size: .85rem;
+    box-shadow: 0 4px 10px rgba(124,58,237,.30);
+}
