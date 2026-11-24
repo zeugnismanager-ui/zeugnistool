@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "tTmCl/tH",
+  "version": "H7kUSe7L",
   "assets": [
     {
       "hash": "sha256-9kmWAqFrsbu8vzKCx/q1/Y0LnrN842eqMPkmTh5Irf0=",
@@ -158,16 +158,16 @@ self.assetsManifest = {
       "url": "_framework/System.Private.Xml.i9q9a67xe0.wasm"
     },
     {
+      "hash": "sha256-FCcljAbMtnSEOtnKUJXZ62x7OAd8fBk5Ec8RTZSAcOo=",
+      "url": "_framework/System.Runtime.4ezneeo202.wasm"
+    },
+    {
       "hash": "sha256-AiQRmKPUUpHhrSFm+q+EOvIQx29+mZa/hRgE9LWA5s8=",
       "url": "_framework/System.Runtime.InteropServices.JavaScript.qlnaq3s5oy.wasm"
     },
     {
       "hash": "sha256-ip4xYTK2+WlSh3VLoQg5oqTrZC18yd9K3BQfq5f/EZI=",
       "url": "_framework/System.Runtime.InteropServices.ufdqgup8rk.wasm"
-    },
-    {
-      "hash": "sha256-oepiCES5tkMmfecdGpQGABWGXTQRSYWOyaqwei++qnk=",
-      "url": "_framework/System.Runtime.x0ktwknejc.wasm"
     },
     {
       "hash": "sha256-ELHY03pae4wIay+Igxwhat4YSbLOfl+TOoSAKvAXGi0=",
@@ -202,23 +202,23 @@ self.assetsManifest = {
       "url": "_framework/System.l1ekyr7hdn.wasm"
     },
     {
-      "hash": "sha256-i99xSsmFWGx3zucEJf+jhkqNMVPqXBSwrfD7MXZAObo=",
-      "url": "_framework/Zeugnis.App.75liwt7mlp.wasm"
+      "hash": "sha256-tPPDp+FA4p1zV0UmRa0icE5GXgfu2Wkyp9ZPJNrByh4=",
+      "url": "_framework/Zeugnis.App.cqw02ndi3h.wasm"
     },
     {
-      "hash": "sha256-XomVyofSAxUdCVNsVa7n2ZVAPEQpqtOU1/wnWQRLF2g=",
-      "url": "_framework/Zeugnis.Domain.2j3y73z73h.wasm"
+      "hash": "sha256-i1OzMWF8OHTdyitpro1+CWORM7UkA0LcBFtMOK8nDh4=",
+      "url": "_framework/Zeugnis.Domain.h9y0na63j3.wasm"
     },
     {
-      "hash": "sha256-u/mGErkvkHM9/5WoTb6fRKauZIAg8hKsZTr3bv8Dja0=",
-      "url": "_framework/Zeugnis.Exchange.rkhfjgkqrc.wasm"
+      "hash": "sha256-uS2Tm9fL6B+7tfaDySWY2qBkBQTqyQC+3Y1TUhF1QOU=",
+      "url": "_framework/Zeugnis.Exchange.nw3a86o110.wasm"
     },
     {
-      "hash": "sha256-McM1X2SB1qlkTrLxo1YFFx6176B2mkxMtzu/id5sPP4=",
-      "url": "_framework/Zeugnis.Export.lfwgvn8c78.wasm"
+      "hash": "sha256-WISv4TlHAjprfOVX+5VFyACjrHukyXsOotyT5B8MTJA=",
+      "url": "_framework/Zeugnis.Export.cb8p6280uy.wasm"
     },
     {
-      "hash": "sha256-tRe9dzLBQV7v00NkZipOip3wCj4ATafFyImf55wEl6E=",
+      "hash": "sha256-x6bR4U++EAJ/Wi1bo45qJFnTPqP+t6gRIQwPTvaij88=",
       "url": "_framework/blazor.boot.json"
     },
     {
