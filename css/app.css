@@ -597,3 +597,7 @@ table.conflicts td { vertical-align: top; }
     background-clip: text;
     color: transparent;
 }
+
+/* Lehrkraft-Modus: ohne Seitenleiste (nur ein Bereich), Inhalt zentriert */
+.only-lehrkraft .sidebar { display: none; }
+.only-lehrkraft .content { max-width: 960px; }
