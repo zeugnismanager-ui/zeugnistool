@@ -627,3 +627,7 @@ table.conflicts td { vertical-align: top; }
     display: grid; place-items: center; font-weight: 700; font-size: .85rem;
     box-shadow: 0 4px 10px rgba(124,58,237,.30);
 }
+
+/* Verwaltungsreiter: bei wenig Breite in mehrere Zeilen umbrechen, damit kein Reiter verborgen bleibt */
+.tabs { flex-wrap: wrap; overflow: visible; row-gap: .15rem; }
+.tab { padding: .6rem .8rem; }
