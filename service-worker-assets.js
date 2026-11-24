@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "t5Xtta3y",
+  "version": "pAmt/xss",
   "assets": [
     {
       "hash": "sha256-9kmWAqFrsbu8vzKCx/q1/Y0LnrN842eqMPkmTh5Irf0=",
@@ -118,12 +118,12 @@ self.assetsManifest = {
       "url": "_framework/System.IO.Pipelines.0ukn2jmtqo.wasm"
     },
     {
-      "hash": "sha256-BUnSbnh7hd0CWHtzMvRQkNiGLgW+SifpLamxoP5Ha+w=",
-      "url": "_framework/System.Linq.1d7nojo89n.wasm"
-    },
-    {
       "hash": "sha256-9aUtGEEz7vPg+Oqu/uLTZrBwsehqw2LiQnWQ3cFB81k=",
       "url": "_framework/System.Linq.Expressions.fvmx4lvaby.wasm"
+    },
+    {
+      "hash": "sha256-J5oagsLt1P7FtJdA7DiSJZxFHUrWRdkB7E8X/rjYnvY=",
+      "url": "_framework/System.Linq.dvn4o3pejm.wasm"
     },
     {
       "hash": "sha256-JfusBnJUIH0KmnZkZnFcGfJjBT2RyViz5uYPBwlntbs=",
@@ -202,23 +202,23 @@ self.assetsManifest = {
       "url": "_framework/System.l1ekyr7hdn.wasm"
     },
     {
-      "hash": "sha256-Hd5qZL48N2+HUVA7Mv6LMj5FPWNSAo/hwI9DzrPFOd4=",
-      "url": "_framework/Zeugnis.App.j4483egmz8.wasm"
+      "hash": "sha256-DFg6/Pb2ax0JYL3jZwMX/GuaOqCPvCC0Robn/YZm+bg=",
+      "url": "_framework/Zeugnis.App.079mkv1o7d.wasm"
     },
     {
-      "hash": "sha256-RWOrqxBJPYfpjcu5XAfil2bP7Q0AiBX0USs8axQIp/s=",
-      "url": "_framework/Zeugnis.Domain.npq212wf8l.wasm"
+      "hash": "sha256-HIpLVA9Bynn+uvA/Ukx9vE2OWUS6EMqK2SkMfTypuHg=",
+      "url": "_framework/Zeugnis.Domain.0lvk9g3q1h.wasm"
     },
     {
-      "hash": "sha256-TF+6xe0dUVpMpnRH+yuWLUmq/T9mbzrVYv93JjfFEJ0=",
-      "url": "_framework/Zeugnis.Exchange.ki3a3ndbpm.wasm"
+      "hash": "sha256-wibca0iHLn/P/zdrC7jneAcn7wcJsF7IPYW3LIjKjVc=",
+      "url": "_framework/Zeugnis.Exchange.alwt7qwuxi.wasm"
     },
     {
-      "hash": "sha256-cOj1gA2H7asxblqIS27dNKYm+zuB6TEIIRyjuUW6Ii8=",
-      "url": "_framework/Zeugnis.Export.wwt8rhgfkj.wasm"
+      "hash": "sha256-uqLTOHkZUKb/3nlo6wKh8T4/NYwJ3M8H5JnNhRffVCc=",
+      "url": "_framework/Zeugnis.Export.q7v11m5spl.wasm"
     },
     {
-      "hash": "sha256-vmtFS2B6n5WqNeQ04H/u6KUWfyfMF0r+syu3QRIbT1A=",
+      "hash": "sha256-SRPCsQH0BockmJDhqBRyX+CFzagNzKkqzF4aUsMuLo8=",
       "url": "_framework/blazor.boot.json"
     },
     {
