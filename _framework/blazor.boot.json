@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Zeugnis.App",
   "resources": {
-    "hash": "sha256-qq2OOSrsFUoCRhf9aTv3MM/LL7YFg/jJaOL7Susp+Lo=",
+    "hash": "sha256-UiaFPLYrdgo890O/7WKH+kCp+CjoPWIuDqUC0zo45q4=",
     "fingerprinting": {
       "DocumentFormat.OpenXml.Framework.w89iktzfdp.wasm": "DocumentFormat.OpenXml.Framework.wasm",
       "DocumentFormat.OpenXml.69ode73m8c.wasm": "DocumentFormat.OpenXml.wasm",
@@ -53,10 +53,10 @@
       "System.Threading.2ie2xxmcel.wasm": "System.Threading.wasm",
       "System.Xml.Linq.z25rdwlfbq.wasm": "System.Xml.Linq.wasm",
       "System.l1ekyr7hdn.wasm": "System.wasm",
-      "Zeugnis.App.1kgum3gwnf.wasm": "Zeugnis.App.wasm",
-      "Zeugnis.Domain.zb4hx4y4r1.wasm": "Zeugnis.Domain.wasm",
-      "Zeugnis.Exchange.txljcnhrik.wasm": "Zeugnis.Exchange.wasm",
-      "Zeugnis.Export.af3r4fykrb.wasm": "Zeugnis.Export.wasm",
+      "Zeugnis.App.xghbe00w37.wasm": "Zeugnis.App.wasm",
+      "Zeugnis.Domain.ylmur49i4x.wasm": "Zeugnis.Domain.wasm",
+      "Zeugnis.Exchange.b2zajzwux6.wasm": "Zeugnis.Exchange.wasm",
+      "Zeugnis.Export.uphl75i6o9.wasm": "Zeugnis.Export.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.1t8lwibe0f.js": "dotnet.native.js",
       "dotnet.native.ngy2llg0wq.wasm": "dotnet.native.wasm",
@@ -132,10 +132,10 @@
       "System.Threading.2ie2xxmcel.wasm": "sha256-FgWJa/l3mXTGDKRiE0k9X5mWWQtuChFACLd/8GEC8RY=",
       "System.Xml.Linq.z25rdwlfbq.wasm": "sha256-ew8aHBMpWxFHtDIWeJCcQgFLBHVr0zxJNrk3WjYqe+8=",
       "System.l1ekyr7hdn.wasm": "sha256-5x3GPplpN5WBojtNwBjuek2x2TSs+aU9Kqx4NhXREXU=",
-      "Zeugnis.App.1kgum3gwnf.wasm": "sha256-r44aAYupYWa1Q/dKTvIRmBjzEKzN6X6wyGdtDxbp4D8=",
-      "Zeugnis.Domain.zb4hx4y4r1.wasm": "sha256-L6H8YrBcXloS15Aty4YgK/hhrQzGGQDxwRMiq2LQHsg=",
-      "Zeugnis.Exchange.txljcnhrik.wasm": "sha256-0Q1pbVxMcg5clNs9+vFG2cuny27OJ3tipbqzdCyXD40=",
-      "Zeugnis.Export.af3r4fykrb.wasm": "sha256-FoodrzQ5e9Bbkl5RUoHXKU/PB6NN1Ylq+NDUGHWRkVE="
+      "Zeugnis.App.xghbe00w37.wasm": "sha256-zwSat2S/SyautH4SEljqTh4Bbg4ee96LvoxZ4ZIn1JE=",
+      "Zeugnis.Domain.ylmur49i4x.wasm": "sha256-9miEe0DlQoEqe4ydiPokhkuVPEXT99bfzptr2lLycX0=",
+      "Zeugnis.Exchange.b2zajzwux6.wasm": "sha256-A6/Zs+2V/7dcTchWYTC8/yiQUR2LpZZ9awEyi+Tt9zE=",
+      "Zeugnis.Export.uphl75i6o9.wasm": "sha256-8of4bP2ntvZXaTWr9XD8gtAGHJ+i6CdV5kjbNeYlA7o="
     }
   },
   "cacheBootResources": true,
