@@ -549,3 +549,51 @@ code.big { font-size: 1.15rem; padding: .15rem .5rem; }
 table.conflicts td { vertical-align: top; }
 .subject-select { min-width: 11rem; }
 .subject-free { display: inline-flex; gap: .3rem; align-items: center; }
+
+/* ===== Design v0.30.0 – Erscheinungsbild (nur Optik, keine Funktion) ===== */
+:root {
+    --primary: #7c3aed;
+    --primary-hover: #6d28d9;
+    --brand-grad: linear-gradient(135deg, #7c3aed, #a855f7);
+    --side-grad: linear-gradient(180deg, #2e1065 0%, #4c1d95 55%, #581c87 100%);
+    --watermark: none;
+}
+@media (prefers-color-scheme: dark) {
+    :root { --primary: #a78bfa; --primary-hover: #c4b5fd; }
+}
+
+/* Schul-Wasserzeichen: nur aus der Schuldatei, kein Internet-Abruf von Schulinhalten */
+.shell { position: relative; }
+.shell::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: var(--watermark) center / min(72vmin, 760px) no-repeat;
+    opacity: .08;
+    pointer-events: none;
+    z-index: 0;
+}
+.shell > * { position: relative; z-index: 1; }
+
+/* Kopfzeile */
+.topbar { background: rgba(255,255,255,.85); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(124,58,237,.10); }
+.brand-mark { background: var(--brand-grad); color: #fff; border-radius: 12px; box-shadow: 0 6px 16px rgba(124,58,237,.35); }
+
+/* Seitenleiste im Lila-Verlauf */
+.sidebar { background: var(--side-grad); border-right: none; color: #f5f3ff; }
+.sidebar .side-link { color: #ede9fe; border-radius: 12px; margin: .2rem .7rem; }
+.side-link:hover { background: rgba(255,255,255,.12); }
+.side-link.active { background: var(--brand-grad); color: #fff; box-shadow: 0 6px 18px rgba(124,58,237,.45); }
+
+/* Karten und Schaltflächen */
+.card { border-radius: 20px; border: 1px solid rgba(124,58,237,.08); box-shadow: 0 10px 30px rgba(76,29,149,.08); }
+.btn.primary { background: var(--brand-grad); border: none; color: #fff; box-shadow: 0 6px 16px rgba(124,58,237,.30); }
+.btn.primary:hover:not(:disabled) { background: var(--brand-grad); filter: brightness(1.06); }
+
+/* Startseite: Titel im Verlauf */
+.hero h1 {
+    background: var(--brand-grad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
