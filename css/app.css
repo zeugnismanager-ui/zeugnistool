@@ -312,7 +312,7 @@ ol.items textarea, ol.items input { flex: 1; min-height: 40px; padding: .45rem .
 .plain-list { margin: 0; padding-left: 1.1rem; }
 .plain-list li { margin: .25rem 0; }
 
-.grading { display: grid; grid-template-columns: 240px minmax(0, 1fr) 230px; grid-template-areas: "students main summary"; gap: .75rem; align-items: start; }
+.grading { display: grid; grid-template-columns: 240px minmax(0, 1fr); grid-template-areas: "students summary" "students main"; gap: .75rem; align-items: start; }
 .student-list { grid-area: students; position: sticky; top: .75rem; padding: .9rem; max-height: calc(100vh - 1.5rem); overflow-y: auto; margin: 0; }
 .grading-main { grid-area: main; min-width: 0; }
 .student-list .list-head { display: flex; justify-content: space-between; align-items: baseline; }
@@ -353,6 +353,12 @@ ol.items textarea, ol.items input { flex: 1; min-height: 40px; padding: .45rem .
 
 .grade-section h3 { margin: 0 0 .75rem; font-size: 1.08rem; }
 .evaluation-summary { grid-area: summary; position: sticky; top: .75rem; padding: .75rem; z-index: 6; margin: 0; }
+/* Breiter Bildschirm: Schrittkasten und Fortschritt als Streifen über der Karte, Karte bekommt die volle Breite. */
+.evaluation-summary { display: flex; flex-wrap: wrap; align-items: flex-start; gap: .6rem; }
+.evaluation-summary .step-card { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem .8rem; margin: 0; flex: 1 1 380px; }
+.evaluation-summary .step-card .step-row { flex: 1 1 240px; }
+.evaluation-summary .evaluation-metrics { flex: 1 1 340px; flex-direction: row; gap: .55rem; }
+.evaluation-summary .evaluation-metric { flex: 1 1 0; width: auto; }
 .evaluation-metrics { display: flex; flex-direction: column; gap: .55rem; }
 .evaluation-metric { display: inline-flex; align-items: center; gap: .38rem; min-height: 42px; padding: .5rem .75rem; border: 1px solid var(--border); border-radius: 10px; background: var(--bg); color: var(--muted); font: inherit; text-transform: uppercase; font-size: .78rem; }
 .evaluation-metric { justify-content: space-between; width: 100%; }
