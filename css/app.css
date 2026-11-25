@@ -607,6 +607,8 @@ table.conflicts td { vertical-align: top; }
 /* Lehrkraft-Modus: ohne Seitenleiste (nur ein Bereich), Inhalt zentriert */
 .only-lehrkraft .sidebar { display: none; }
 .only-lehrkraft .content { max-width: 960px; }
+/* Bewertungsseiten brauchen die volle Breite, damit die Ratingtabelle ohne Kaskadenscroll sichtbar bleibt. */
+.only-lehrkraft .content:has(.grading) { max-width: 1680px; }
 
 /* ===== Design v0.31.0 – Marke, Kenarçubuğu, Rozetler (nur Optik) ===== */
 .brand { font-weight: 800; letter-spacing: .01em; }
