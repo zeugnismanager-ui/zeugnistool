@@ -631,3 +631,10 @@ table.conflicts td { vertical-align: top; }
 /* Verwaltungsreiter: bei wenig Breite in mehrere Zeilen umbrechen, damit kein Reiter verborgen bleibt */
 .tabs { flex-wrap: wrap; overflow: visible; row-gap: .15rem; }
 .tab { padding: .6rem .8rem; }
+
+/* Schrittkasten über der Fortschrittsanzeige (Lehrkraft: 1 Rückgabe, 2 TaskCards) */
+.step-card { display: grid; gap: .55rem; padding: .75rem; margin-bottom: .6rem; border-radius: 14px; background: var(--info-bg); border: 1px solid var(--line); }
+.step-card .step-row { display: flex; align-items: center; gap: .55rem; }
+.step-card .step-badge { flex: none; display: inline-grid; place-items: center; width: 1.7rem; height: 1.7rem; border-radius: 50%; background: var(--brand-grad, var(--primary)); color: #fff; font-weight: 700; }
+.step-card .step-action { flex: 1; min-width: 0; justify-content: center; text-align: center; }
+.step-card .step-note { margin: 0; padding-left: 2.25rem; }
