@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "JUIW4UCC",
+  "version": "FkwYuOwf",
   "assets": [
     {
       "hash": "sha256-9kmWAqFrsbu8vzKCx/q1/Y0LnrN842eqMPkmTh5Irf0=",
@@ -202,23 +202,23 @@ self.assetsManifest = {
       "url": "_framework/System.l1ekyr7hdn.wasm"
     },
     {
-      "hash": "sha256-ULbUUimhvtUJp5ZQpgmQ0O9oBqiWHkzFcB0LqxJBHZ0=",
-      "url": "_framework/Zeugnis.App.0sue3s50s3.wasm"
+      "hash": "sha256-xgwsbAk59IBUmesFMKj7katYrKqihRM8+XDYYlbo0Q8=",
+      "url": "_framework/Zeugnis.App.2xu592j7a8.wasm"
     },
     {
-      "hash": "sha256-++NXrB+LNwp7OaTJiPnTL+cMlnDZTWsTPGcbMrd9mYU=",
-      "url": "_framework/Zeugnis.Domain.f3c73qqaja.wasm"
+      "hash": "sha256-EA3HeOFfhLjmoJnZTtXc0YOc+Bz9ALPJIbq1rWxelW8=",
+      "url": "_framework/Zeugnis.Domain.kbh1x5znek.wasm"
     },
     {
-      "hash": "sha256-Xpqh5fsZV4LzE4ccUXVJfG1UMHSLRoasGFfP0WiIi3M=",
-      "url": "_framework/Zeugnis.Exchange.a21pgp8sx8.wasm"
+      "hash": "sha256-UWTJb10w3KUnHjDIRWMtbSyAEwUrRiSsLSFdHubnYcY=",
+      "url": "_framework/Zeugnis.Exchange.hslgquwg62.wasm"
     },
     {
-      "hash": "sha256-B/0Sq8k2qVr2LxjYRKWbJIp7+0i0/QcagMlnqNAtAXU=",
-      "url": "_framework/Zeugnis.Export.dzomvf8dl3.wasm"
+      "hash": "sha256-1I6azGlj0tXDfbG8gQTnuj+ZpF9xltBeGKET4al6yoQ=",
+      "url": "_framework/Zeugnis.Export.oplt6armgn.wasm"
     },
     {
-      "hash": "sha256-TzcVtdfTlTwdBlS7oxe7VdYbtburuwdppbWTW2/l9Gk=",
+      "hash": "sha256-UIuXEH4YRBRP8QjMnpMWwvzEcZYsqP39kuhPBzJMMSc=",
       "url": "_framework/blazor.boot.json"
     },
     {
