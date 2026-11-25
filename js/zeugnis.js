@@ -176,6 +176,18 @@ window.zeugnis = (() => {
     remove: id => { try { localStorage.removeItem(draftPrefix + id); } catch { } },
   };
 
+  // Gerätebezogene Einstellung der Lehrkraft (z. B. eigener TaskCards-Link). Nur Schlüssel mit Präfix „zeugnis.pref.“, keine Schuldaten.
+  const viewerPref = {
+    get: key => { try { return key.startsWith("zeugnis.pref.") ? localStorage.getItem(key) : null; } catch { return null; } },
+    set: (key, value) => {
+      try {
+        if (!key.startsWith("zeugnis.pref.")) return false;
+        if (value) localStorage.setItem(key, value); else localStorage.removeItem(key);
+        return true;
+      } catch { return false; }
+    },
+  };
+
   // Inaktivität: misst die Zeit seit der letzten Eingabe. Zeitstempel statt Timer,
   // weil iPad/Safari Timer im Hintergrund anhält; beim Zurückkehren wird sofort geprüft.
   const idle = (() => {
@@ -247,5 +259,5 @@ window.zeugnis = (() => {
     return { register, watch, apply, markReady, state };
   })();
 
-  return { encrypt, decrypt, download, isSecure, setUnloadGuard, scrollToMain, scrollToField, catalogSort, draft, idle, sw };
+  return { encrypt, decrypt, download, isSecure, setUnloadGuard, scrollToMain, scrollToField, catalogSort, draft, viewerPref, idle, sw };
 })();
